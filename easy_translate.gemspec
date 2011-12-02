@@ -1,8 +1,8 @@
-require 'lib/easy_translate/version'
+require File.expand_path('../lib/easy_translate/version', __FILE__)
 
 spec = Gem::Specification.new do |s|
-  
-  s.name = 'easy_translate'  
+
+  s.name = 'easy_translate'
   s.author = 'John Crepezzi'
   s.add_development_dependency('rspec')
   s.add_dependency('json')
